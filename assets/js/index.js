@@ -27,6 +27,7 @@ $(document).ready(function(){
     });
     ScrollReveal().reveal('.col-left', { origin: 'left' });
     ScrollReveal().reveal('.col-right', { origin: 'right' });
+    ScrollReveal().reveal('.item', { interval: 500 });
 
    
 
