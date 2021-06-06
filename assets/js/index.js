@@ -18,6 +18,17 @@ $(document).ready(function(){
 	});
 });
 
+    // Reveal animation
+    const sr = ScrollReveal({
+        origin: 'top',
+        distance: '20px',
+        duration: 1500,
+        reset: true
+    });
+    ScrollReveal().reveal('.col-left', { origin: 'left' });
+    ScrollReveal().reveal('.col-right', { origin: 'right' });
+
+   
 
 
 
