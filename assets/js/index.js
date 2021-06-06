@@ -1,5 +1,5 @@
 // Scrollspy
-// var spy = new Gumshoe('nav a');
+var spy = new Gumshoe('nav a');
 // Burger
     $('.burger').on('click', function (event) {
         $('.navigation-bar').slideToggle('200');
@@ -22,12 +22,12 @@ $(document).ready(function(){
     const sr = ScrollReveal({
         origin: 'top',
         distance: '20px',
-        duration: 1500,
+        duration: 1000,
         reset: true
     });
     ScrollReveal().reveal('.col-left, .content-col', { origin: 'left' });
     ScrollReveal().reveal('.col-right, .content-col-image', { origin: 'right' });
-    ScrollReveal().reveal('.item, .list', { interval: 500 });
+    ScrollReveal().reveal('.item, .list, .footer-about, .footer-col', { interval: 100 });
 
    
 
