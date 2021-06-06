@@ -63,6 +63,7 @@ input:focus {
   outline: none;
 }
 .img-fluid {
+  border-radius: 30px;
   width: 100%;
 }
 /* Classes */
@@ -293,16 +294,12 @@ nav{
   background-color: var(--color-white);
   transition: transform 0.3s ease-in-out;
 }
-.menu-items .item:hover {
-  transform: scale(1.03);
-}
 .menu-items .item img {
   border-radius: var(--border-radius);
 }
 .item-content {
   padding: 25px 30px;
 }
-
 .item-content p {
   margin: 16px 0 25px;
 }
@@ -340,6 +337,41 @@ nav{
 .content-col p {
   margin-bottom: 30px;
   width: 80%;
+}
+
+/* Our services */
+.services .content-col {
+  padding-left: 75px;
+}
+
+/* Chef section */
+.chef-lists {
+  margin-top: 80px;
+  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
+}
+.chef-lists .list {
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow-main);
+  background-color: var(--color-white);
+  transition: transform 0.3s ease-in-out;
+}
+
+.chef-lists .list img {
+  border-radius: var(--border-radius);
+}
+.list-content {
+  padding: 25px 30px;
+}
+
+.list-content p {
+  margin: 16px 0 25px;
+}
+.list-content h4 {
+  font-size: 28px;
+  text-transform: capitalize;
+  color: var(--color-second);
+  margin-bottom: 15px;
+  font-weight: var(--font-weight-medium);
 }
 
 @media(min-width: 768px){

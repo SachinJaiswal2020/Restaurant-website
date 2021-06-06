@@ -27,7 +27,7 @@ $(document).ready(function(){
     });
     ScrollReveal().reveal('.col-left, .content-col', { origin: 'left' });
     ScrollReveal().reveal('.col-right, .content-col-image', { origin: 'right' });
-    ScrollReveal().reveal('.item', { interval: 500 });
+    ScrollReveal().reveal('.item, .list', { interval: 500 });
 
    
 
